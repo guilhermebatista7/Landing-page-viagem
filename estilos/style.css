@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    --cor-azul-claro: #BBDDF2;
+    --cor-azul-bebe: #66F2F2;
+    --cor-verde-agua: #07C4D9;
+    --cor-marrom: #A68B3C;
+    --cor-areia: #F2D5BB;
+}
+
+h1 {
+    color: var();
+}
+
+
+
