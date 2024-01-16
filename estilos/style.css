@@ -113,7 +113,7 @@ main {
     margin: auto;
     margin-top: 10px;
     text-align: center;
-    width: 400px;
+    width: 350px;
     border: 1px solid rgba(0, 0, 0, 0.641);
     border-radius: 10px;
 }
@@ -134,15 +134,15 @@ main {
 }
 
 .avaliacao__paris h4 {
-    left: -65px;
+    left: -40px;
 }
 
 .avaliacao__maldivas h4 {
-    left: -105px;
+    left: -80px;
 }
 
 .avaliacao__rio-de-janeiro h4 {
-    left: -102px;
+    left: -80px;
 }
 
 .avaliacao p {
@@ -153,7 +153,7 @@ main {
 }
 
 .cadastro {
-    width: 400px;
+    width: 350px;
     background: url('../imagens/login-foto.jpg') center no-repeat;
     background-size: cover;
     margin: auto;
