@@ -38,14 +38,14 @@ header {
 .header__titulo {
     display: inline;
     position: relative;
-    top: -30px;
+    top: -20px;
     font-family: 'Wendy One', sans-serif;
     font-size: 7vw;
 }
 
 #header__planeta {
     position: relative;
-    top: 20px;
+    top: 10px;
     width: 10vw;
     max-width: 70px;
 }
