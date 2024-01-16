@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 800px) {
+
+    .header__titulo {
+        font-size: 50px;
+    }
+
+    .header__p {
+        max-width: 700px;
+        margin: auto;
+        font-size: 20px;
+    } 
+
+    .destinos {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: baseline;
+        max-width: 1165px;
+    }
+
+    .main__destinos {
+        margin: 20px;
+    }
+
+    .main__paris {
+        order: 0;
+    }
+
+    .main__new-york {
+        order: 2;
+    }
+
+    .main__maldivas {
+        order: 1;
+    }
+
+    .main__rio-de-janeiro {
+        order: 3;
+    }
+
+    .avaliacao {
+        display: block;
+        width: 800px;
+        margin: auto
+    }
+
+    .avaliacao__paris h4 {
+        left: -260px
+    }
+
+    .avaliacao__maldivas h4{
+        left: -300px
+    }
+
+    .avaliacao__rio-de-janeiro h4 {
+        left: -300px;
+    }
+
+    .cadastro {
+        width: 800px;
+        height: 300px;
+    }
+
+    .cadastro h2 {
+        font-size: 30px;
+    }
+
+    .cadastro__form {
+        margin-top: 50px;
+    }
+
+    #icone-pessoa__form {
+        width: 26px;
+        top: 8px;
+    }
+
+    #icone-senha__form {
+        width: 33px;
+        top: 12px;
+        left: 2px;
+        margin-left: -6px;
+    }
+
+    .cadastro__form input[type='password'], input[type='email'] {
+        width: 400px;
+        height: 32px;
+        border-radius: 5px;
+    }
+
+    .cadastro__form input[type='submit'], .cadastro__form  input[type='text'] {
+        width: 180px;
+        height: 30px;
+    }
+
+    .cadastro__form input[type='submit'] {
+        top: 120px;
+        height: 30px;
+        left: 32px;
+    }
+
+    .cadastro__form  input[type='text'] {
+        top: 120px;
+        left: 250px;
+    }
+
+    footer p {
+        font-size: 20px;
+    }
+}

@@ -6,35 +6,76 @@
     <title>Jornada Épica</title>
     <link rel="shortcut icon" href="imagens/viagem.favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
 </head>
 <body>
     <header>
-        <h1 class="header__titulo">Jornada Épica</h1>
+        <h1 class="header__titulo">Jornada Épica <img id="header__planeta" src="imagens/planeta-terra.png" alt="planeta-terra"></h1>
         <p class="header__p">Descubra uma nova forma de viajar com a Jornada Épica. Nosso site foi projetado para transformar suas viagens em experiências inesquecíveis. Aqui está o que torna a nossa proposta única:
         </p>
     </header>
     <main>
         <div class="destinos">
-            <section class="main__paris"></section>
-            <section class="main__new-york"></section>
-            <section class="main__maldivas"></section>
-            <section class="main__rio-de-janeiro"></section>
-        </div>
-        <div class="avaliacao">
-            <section class="avalicao__paris"></section>
-            <section class="avaliacao__maldivas"></section>
-            <section class="avaliacao__rio-de-janeiro"></section>
-        </div>
-        <div class="cadastro">
-            <h2>Pronto para Embarcar?</h2>
-            <p>Junte-se à comunidade do [Nome do Seu App de Viagens] e comece a sua próxima aventura. Viajar nunca foi tão fácil, inspirador e personalizado. Sua jornada dos sonhos está apenas a um toque de distância!</p>
-            <form action="#">
-                
-            </form>
+            <section class="main__destinos" class="main__paris" style="order: 0;">
+                <img src="imagens/paris.img.jpg" alt="foto-paris">
+                <h2>Paris - França</h2>
+                <p>Esta é a oportunidade perfeita para vivenciar o charme de Paris com todo conforto e estilo. Prepare-se para criar memórias que durarão para sempre! Viajar para Paris nunca foi tão acessível e envolvente.</p>
+                <strong><a href="#">Reserve agora</a></strong>
+            </section>
+            <section class="main__destinos" class="main__new-york" style="order: 1;">
+                <img src="imagens/new-york.img.jpg" alt="foto-new-york">
+                <h2>New York - Estados Unidos</h2>
+                <p>Esta é a sua chance de vivenciar a magia da "Cidade que nunca dorme" com todo o conforto e estilo. Embarque em uma experiência que vai além das suas expectativas. </p>
+                <strong><a href="#">Reserve agora</a></strong>
+            </section>
+            <section class="main__destinos" class="main__maldivas" style="order: 2;">
+                <img src="imagens/maldivas.img.jpg" alt="foto-maldivas">
+                <h2>Ilhas Maldivas</h2>
+                <p>Esta é a oportunidade perfeita para mergulhar nas águas cristalinas e nas praias de areias brancas das Maldivas. Não perca a chance de viver momentos inesquecíveis neste destino paradisíaco! </p>
+                <strong><a href="#">Reserve agora</a></strong>
+            </section>
+            <section class="main__destinos" class="main__rio-de-janeiro" style="order: 0;">
+                <img src="imagens/rio-de-janeiro.img.jpg" alt="foto-Rio de Janeiro">
+                <h2>Rio de Janeiro - Brasil</h2>
+                <p>Venha conhecer o Rio de Janeiro, um dos lugares mais bonitos do mundo. Local marcado por dua alegria, cultura, diversidade e paisagens exóticas. Além disso, conheça também o Cristo Redentor, ponto turístico mais icônico da cidade!</p>
+                <strong><a href="#">Reserve agora</a></strong>
+            </section>
         </div>
     </main>
+    <div class="avaliacao">
+        <h3>Confira nossas avaliações</h3> <hr>
+        <section class="avaliacao__paris">
+            <img src="imagens/pessoa-icone.png" alt="pessoa-icone-imagem">
+            <h4>João Lucas dos Santos</h4>
+            <p>"Tive a sorte de visitar Paris e vivenciar a verdadeira magia desta cidade incrível. Cada momento foi uma celebração da cultura, da história e da beleza que permeiam as ruas parisienses."</p>
+        </section>
+        <section class="avaliacao__maldivas">
+            <img src="imagens/pessoa-icone.png" alt="pessoa-icone-imagem">
+            <h4>Enzo Martins</h4>
+            <p>"Minha viagem às Maldivas foi uma jornada verdadeiramente extraordinária, um mergulho em um paraíso no lugar que superou todas as expectativas. "</p>
+            <p></p>
+        </section>
+        <section class="avaliacao__rio-de-janeiro">
+            <img src="imagens/pessoa-icone.png" alt="pessoa-icone-imagem">
+            <h4>Hugo Borges</h4>
+            <p>"Minha recente viagem ao Rio de Janeiro foi uma jornada inesquecível, repleta de energia, beleza e cultura autêntica."</p>
+        </section>
+    </div>
+     <div class="cadastro">
+        <h2>Pronto para Embarcar?</h2>
+        <p>Junte-se à comunidade da Jornada Épica, adquira cupons de desconto e comece a sua próxima aventura. Viajar nunca foi tão fácil, inspirador e personalizado. Sua jornada dos sonhos está apenas a um toque de distância!</p>
+        <form action="#" class="cadastro__form" method="post" autocomplete="on">
+            <label for="inome"><img src="imagens/icone-pessoa-form.png" alt="icone-usuario" id="icone-pessoa__form"></label>
+            <input type="email" name="nome" id="inome" required minlength="8" placeholder=" e-mail"> <br>
+            <label for="isenha"><img src="imagens/icone-senha-form.png" alt="icone-senha" id="icone-senha__form"></label>
+            <input type="password" name="senha" id="isenha" required minlength="8" placeholder=" senha"> <br>
+            <a href="#"><input type="submit" value="Entrar"></a>
+            <a href="#"><input type="text" value="Cadastrar"></a>
+        </form>
+    </div> 
     <footer>
-
+        <p>Projeto desenvolvido por Guilherme Batista de Souza</p><br>
+        <a href="https://github.com/guilhermebatista7" target="_blank">GitHub</a>
     </footer>
 </body>
 </html>
