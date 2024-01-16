@@ -247,7 +247,7 @@ footer {
 }
 
 footer p {
-    display: inline;
+    text-align: center;
     font-weight: bold;
     font-size: 17px;
 }
